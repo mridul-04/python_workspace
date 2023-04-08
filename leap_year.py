@@ -1,5 +1,5 @@
-year=int(input("enter a year"))
+year=int(input("Enter a year : "))
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print("it is a leap year")
+    print("It is a leap year")
 else:
-    print("it is a normal year")
+    print("It is a normal year")
