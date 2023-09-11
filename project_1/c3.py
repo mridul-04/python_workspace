@@ -1,0 +1,1 @@
+print ("The sqaure of 7 is",7**2)

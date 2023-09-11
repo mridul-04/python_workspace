@@ -1,0 +1,14 @@
+m=int(input("enter any number : "))
+c=0
+isNotDuck = True
+while m!=0:
+    c=m%10     
+    if c==0:
+        isNotDuck = False
+        print ("It is a duck number")
+        break
+    m = m//10
+if isNotDuck:
+    print("not a duck")
+    
+    
