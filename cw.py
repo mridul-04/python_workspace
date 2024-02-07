@@ -74,5 +74,13 @@
 # print(p)
 
 
-for i in range(700,6,-7):
-    print(i)
+# for i in range(700,6,-7):
+#     print(i)
+
+
+a = "rfaaewflj43fes287"
+i = 0
+while i < len(a):
+    if a[i].isalpha():
+        print(a[i])
+    i += 1
